@@ -11,6 +11,17 @@ with open('/content/result.txt', 'w') as f:
 
 print("Text file saved as 'result.txt'")
 ```
+read file:
+```
+# Define the file path
+file_path = '/content/drive/MyDrive/result_100.txt'
+
+# Read and print the file contents
+with open(file_path, 'r') as f:
+    content = f.read()
+
+print(content)
+```
 
 Install deps:
 ```
